@@ -1,0 +1,38 @@
+# AzipediaSearcher YamlConfiguration
+# Config Version
+configVersion: 1.1
+
+# 言語設定
+# デフォルトでは日本語です
+lang: "ja"
+
+# 検索するMediaWikiのURLを設定してください
+url: "https://wiki.azisaba.net/api.php"
+
+# /wiki searchコマンドのクールダウンを設定します
+cooldown: 5
+
+# 通常検索時の最大取得件数
+limit: 50
+
+# カテゴリ検索の最大取得件数
+CategorySearchLimit: 50
+
+#カテゴリ一覧
+category:
+  - 'Life'
+  - 'PVE'
+  - 'ばにらいふ'
+  - 'ばにらいふ２！'
+  - 'イベント'
+  - '情報'
+  - '燃料'
+  - '町'
+  - '経済'
+  - 'LGW2'
+  - 'Grid Templates'
+  - 'Imported vocabulary'
+  - 'Questionable content'
+  - 'Diverse'
+  - 'ページ名の表示が無視されているページ'
+  - '壊れたファイルへのリンクがあるページ'

@@ -1,0 +1,54 @@
+# AzipediaSearcher v1.2.0 メッセージ設定
+# すべての項目でカラーコード(&)が使用可能です
+
+# システムメッセージ
+OnlyPlayers: "&cこのコマンドはプレイヤーのみが実行できます．"
+NoPermission: "&cこのコマンドを実行する権限がありません．"
+ReloadConfig: "&a設定ファイルを再読み込みしました．"
+ConfigCommandHelp: "&e使用方法: /azipedia config reload"
+UnknownCommand:
+  - '&c%command%というコマンドは見つかりませんでした．'
+  - '&c/azipedia help でヘルプを表示できます．'
+
+# 検索関連メッセージ
+Searching: "&7検索しています..."
+SearchError: "&c検索中にエラーが発生しました．"
+SearchNotFound: "&c%search%に一致するページは見つかりませんでした．"
+SearchResult: "&a%search%の検索結果: &d%totalResults%&a件"
+NoSearch:
+  - '&c表示する検索結果がありません．'
+  - '&c/azipedia search <キーワード> で先に検索を実行してください．'
+
+# 検索結果表示メッセージ
+Page: "ページ"
+PageEnd: "&cこれ以上ページはありません．"
+NextPage: "次のページへ"
+PrevPage: "前のページへ"
+OpenUrl: "クリックしてブラウザで開く"
+
+# クールダウンメッセージ
+CooldownMessage: "&cクールダウン中です．あと %time% 秒お待ちください．"
+
+# 検索オプションのヘルプ
+SearchUsage:
+  - '&6使用方法: &f/azipedia search <キーワード> [検索オプション]'
+  - '&bオプション:'
+  - '  &fcategory=<カテゴリ名> &7- 指定したカテゴリ内で検索します．'
+  - '  &fsearchtype=<OR|AND> &7- 検索タイプを指定します．(デフォルト: AND)'
+  - '  &fsearchrange=<text|title> &7- 検索範囲を指定します．(デフォルト: text)'
+  - '  &flimit=<数値> &7- 最大表示件数を指定します．(デフォルト: 50)'
+
+# ヘルプメッセージ
+Help:
+  - '&6========== AzipediaSearcher ヘルプ =========='
+  - '&e/azipedia search <キーワード> [検索オプション] &7- Azipedia内のページを検索します．'
+  - '&6=========================================='
+
+HelpAdmin:
+  - '&6========== AzipediaSearcher ヘルプ =========='
+  - '&e/azipedia search <キーワード> [検索オプション] &7- Azipedia内のページを検索します．'
+  - '&e/azipedia next &7- 検索結果の次のページを表示します．'
+  - '&e/azipedia prev &7- 検索結果の前のページを表示します．'
+  - '&e/azipedia reload &7- 設定ファイルをリロードします．'
+  - '&e/azipedia version &7- プラグインのバージョンを表示します．'
+  - '&6=========================================='

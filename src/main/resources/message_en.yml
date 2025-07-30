@@ -1,0 +1,54 @@
+# AzipediaSearcher v1.2.0 Message Configuration
+# Color codes (&) can be used in all items.
+
+# System Messages
+OnlyPlayers: "&cThis command can only be executed by a player."
+NoPermission: "&cYou do not have permission to execute this command."
+ReloadConfig: "&aConfiguration file reloaded."
+ConfigCommandHelp: "&eUsage: /azipedia config reload"
+UnknownCommand:
+  - '&cCommand ''%command%'' not found.'
+  - '&cType /azipedia help to see available commands.'
+
+# Search-related Messages
+Searching: "&7Searching..."
+SearchError: "&cAn error occurred during the search."
+SearchNotFound: "&cNo pages found matching ''%search%''."
+SearchResult: "&aSearch results for ''%search%'': &d%totalResults%&a found."
+NoSearch:
+  - '&cThere are no search results to display.'
+  - '&cPlease perform a search first with /azipedia search <keywords>.'
+
+# Search Result Display Messages
+Page: "Page"
+PageEnd: "&cThere are no more pages."
+NextPage: "Next Page"
+PrevPage: "Previous Page"
+OpenUrl: "Click to open in browser"
+
+# Cooldown Message
+CooldownMessage: "&cYou are on cooldown. Please wait %time% seconds."
+
+# Search Options Help
+SearchUsage:
+  - '&6Usage: &f/azipedia search <keywords> [options]'
+  - '&bOptions:'
+  - '  &fcategory=<category_name> &7- Searches within the specified category.'
+  - '  &fsearchtype=<OR|AND> &7- Specifies the search type. (Default: AND)'
+  - '  &fsearchrange=<text|title> &7- Specifies the search scope. (Default: text)'
+  - '  &flimit=<number> &7- Specifies the maximum number of results. (Default: 50)'
+
+# Help Message
+Help:
+  - '&6========== AzipediaSearcher Help =========='
+  - '&e/azipedia search <keywords> [options] &7- Searches for pages on Azipedia.'
+  - '&6=========================================='
+
+HelpAdmin:
+  - '&6========== AzipediaSearcher Help =========='
+  - '&e/azipedia search <keywords> [options] &7- Searches for pages on Azipedia.'
+  - '&e/azipedia next &7- Displays the next page of search results.'
+  - '&e/azipedia prev &7- Displays the previous page of search results.'
+  - '&e/azipedia reload &7- Reloads the configuration file.'
+  - '&e/azipedia version &7- Displays the plugin version.'
+  - '&6=========================================='

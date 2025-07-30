@@ -1,0 +1,22 @@
+name: AzipediaSearcher
+version: '1.2.0'
+main: net.azisaba.albardoo02.AzipediaSearcher
+api-version: '1.15'
+author: albardoo02
+website: https://github.com/albardoo02/AzipediaSearcher
+
+commands:
+  wiki:
+    description: "Wiki検索コマンド"
+    aliases:
+    - azipedia
+    - azisabawiki
+    - officialwiki
+    - w
+    permission: "azipediasearcher.command.wiki"
+
+permissions:
+  azipediasearcher.command.wiki:
+    default: op
+  azipediasearcher.command.bypass:
+    default: op

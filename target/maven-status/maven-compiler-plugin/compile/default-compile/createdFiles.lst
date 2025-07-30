@@ -1,0 +1,4 @@
+net\azisaba\albardoo02\AzipediaSearcher.class
+net\azisaba\albardoo02\MessageManager.class
+net\azisaba\albardoo02\Command\WikiCommandTabCompleter.class
+net\azisaba\albardoo02\Command\WikiCommandExecutor.class
