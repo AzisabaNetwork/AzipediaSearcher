@@ -3,49 +3,44 @@
 ![スクリーンショット 2025-02-11 155417](https://github.com/user-attachments/assets/9aab2ec7-1384-48a3-bd3e-5dea35af9bf9)
 
 ## 概要
-MediaWiki内のページをマインクラフト内から検索するプラグイン
+Azipedia内のページをマインクラフト内から検索するプラグイン
 
 デフォルトではAzipediaが指定されていますが、MediaWikiであれば設定で変更可能です
 
-## 導入
-1：Releasesから最新のjarファイルをダウンロード
-
-2：サーバーのpluginsフォルダに入れる
-
-3：Plugmanを利用してロードするか、サーバーを再起動する。
-
-4：AzipediaSearcherフォルダ内にあるconfig.ymlを設定する。
-
-5：`/wiki reload`でConfigを再読み込みするか、サーバーを再起動する。
-
-※Minecraft Ver 1.18.2でのみ動作確認しています。
-
-　それ以外のバージョンについては不明です。
-
 ## コマンド
 ### 全般
-・`/wiki help`: AzipediaSearcherのヘルプ
+- `/azipedia help`: AzipediaSearcherのヘルプ
 
-・`/wiki config reload`: Configの再読み込み
+- `/azipedia config reload`: Configの再読み込み
 
-・`/wiki version`: バージョンの表示
+- `/azipedia version`: バージョンの表示
 
-・`/wiki search <検索する単語> <検索オプション>`
+- `/azipedia search <検索する単語> [検索オプション]`
+
+エイリアス: `/wiki`,`azisabawiki`,`w`
 
 #### 検索オプション
-・検索する単語は複数指定できます
 
-・SearchType=ORでどちらかが当てはまる場合の検索結果を表示します(デフォルトではSearchType=AND)
+検索オプションは任意です
 
-・SearchRange=Titleでタイトルのみを検索します(デフォルトではSearchRange=Content)
+検索する単語は複数指定できます
 
-![スクリーンショット 2025-02-11 155403](https://github.com/user-attachments/assets/5aee984e-b91a-4bd4-875e-3757a7a48b68)
+- category:カテゴリ名 でカテゴリを指定して検索します
 
+- limit:件数 で検索結果表示数を指定します
 
-エイリアス: `/azipedia`,`azisabawiki`,`w`,`mediawiki`
+- searchrange:title でタイトルのみを検索します
 
-## 権限 / Permission
+- searchrange:text で本文を含め検索します
+
+- searchtype:AND でキーワードが複数指定されたときにどちらも含めて検索します
+
+- searchtype:OR でキーワードが複数指定されたときにどちらかに当てはまるページを検索します
+
+<img width="1049" height="47" alt="image" src="https://github.com/user-attachments/assets/6d03a1d3-14ce-4ace-a02c-c7452032b185" />
+
+## 権限
 - `azipediasearcher.command.reload`: reloadコマンド権限
 
-## ライセンス / License
-[MIT License](LICENSE)
+## ライセンス
+[GNU General Public License v3.0](LICENSE)
