@@ -4,7 +4,7 @@
   <groupId>net.azisaba.albardoo02</groupId>
   <artifactId>AzipediaSearcher</artifactId>
   <name>AzipediaSearcher</name>
-  <version>1.2.0</version>
+  <version>1.2.1</version>
   <build>
     <resources>
       <resource>

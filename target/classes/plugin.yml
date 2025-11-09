@@ -1,9 +1,9 @@
 name: AzipediaSearcher
-version: '1.2.0'
+version: '1.2.1'
 main: net.azisaba.albardoo02.AzipediaSearcher
 api-version: '1.15'
 author: albardoo02
-website: https://github.com/albardoo02/AzipediaSearcher
+website: https://github.com/AzisabaNetwork/AzipediaSearcher
 
 commands:
   wiki:
@@ -12,8 +12,6 @@ commands:
     - azipedia
     - azisabawiki
     - officialwiki
-    - w
-    permission: "azipediasearcher.command.wiki"
 
 permissions:
   azipediasearcher.command.wiki:

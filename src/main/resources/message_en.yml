@@ -1,4 +1,4 @@
-# AzipediaSearcher v1.2.0 Message Configuration
+# AzipediaSearcher v1.2.1 Message Configuration
 # Color codes (&) can be used in all items.
 
 # System Messages
@@ -37,6 +37,12 @@ SearchUsage:
   - '  &fsearchtype=<OR|AND> &7- Specifies the search type. (Default: AND)'
   - '  &fsearchrange=<text|title> &7- Specifies the search scope. (Default: text)'
   - '  &flimit=<number> &7- Specifies the maximum number of results. (Default: 50)'
+
+
+WikiUrlMessage:
+  - '&3New official wiki url: &f&lhttps://wiki.azisaba.net/'
+  - '&3Old official wiki url: &fhttps://azisabaofficial.playing.wiki/'
+  - '&3Unofficial wiki url: &fhttps://aziserver.playing.wiki/'
 
 # Help Message
 Help:

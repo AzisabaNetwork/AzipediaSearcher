@@ -54,11 +54,7 @@ public class WikiCommandExecutor implements CommandExecutor {
 
         Player player = (Player) sender;
         if (args.length < 1) {
-            if (player.hasPermission("azipediasearcher.command.wiki")) {
-                messageManager.sendMessage(player, "HelpAdmin");
-            } else {
-                messageManager.sendMessage(player, "Help");
-            }
+            messageManager.sendMessage(player, "WikiUrlMessage");
             return true;
         }
 

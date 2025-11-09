@@ -38,6 +38,12 @@ SearchUsage:
   - '  &fsearchrange=<text|title> &7- 検索範囲を指定します．(デフォルト: text)'
   - '  &flimit=<数値> &7- 最大表示件数を指定します．(デフォルト: 50)'
 
+# Wikiリンクの表示メッセージ
+WikiUrlMessage:
+  - '&3新公式Wikiリンク: &f&lhttps://wiki.azisaba.net/'
+  - '&3旧公式Wikiリンク: &fhttps://azisabaofficial.playing.wiki/'
+  - '&3非公式Wikiリンク: &fhttps://aziserver.playing.wiki/'
+
 # ヘルプメッセージ
 Help:
   - '&6========== AzipediaSearcher ヘルプ =========='
